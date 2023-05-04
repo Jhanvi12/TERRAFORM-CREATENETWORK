@@ -1,4 +1,15 @@
 # TERRAFORM-CREATENETWORK
+**Description** - Created AWS VPC with Public and Private Subnets, Internet Gateway and Route table in Terraform with sample code (this repo). Here It is shown how to create AWS VPC and its components using the Infrastructure as a code tool i.e. Terraform along with the commands. 
+
+**Things we learnt ** -
+Create AWS VPC with Terraform (aws_vpc)
+Create AWS Public Subnet with Terraform (aws_subnet)
+Create AWS Private Subnet with Terraform (aws_subnet)
+Create AWS Internet Gateway with Terraform (aws_internet_gateway)
+Create AWS Public Routing Table with Terraform (aws_route_table)
+Associate Public Route table with Terraform (aws_route_table_association)
+AWS VPC Overview Created by Terraform
+
 **This is a terraform code to make network infrastructure.**
 ```
 1.**Plan-Infra.jpeg** is the network mapper image we designed to provision our network.
